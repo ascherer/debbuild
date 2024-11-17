@@ -34,7 +34,7 @@ do
 	esac
 done
 
-for project in cwebbin mmix sgb tetex-anschrift lucida advent xstar debbuild
+for project in cwebbin mmix sgb tetex-anschrift lucida advent debbuild
 do
 	printf "\n\nbuilding %s\n\n" "$project"
 	git checkout $project-master
